@@ -1,4 +1,5 @@
 📘 Project Documentation: Password Strength & Hash Cracker
+
 🔧 Project Overview:
 
 The Password Strength & Hash Cracker is a Python GUI application built using tkinter. It provides two main functionalities:
@@ -17,6 +18,7 @@ PasswordStrengthAndHashCracker/
 ├── main.py                  # Main application script
 
 ├── common_passwords.txt     # List of commonly used passwords (dictionary file)
+
 
 
 
