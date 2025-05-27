@@ -1,23 +1,32 @@
 📘 Project Documentation: Password Strength & Hash Cracker
-🔧 Project Overview
+🔧 Project Overview:
+
 The Password Strength & Hash Cracker is a Python GUI application built using tkinter. It provides two main functionalities:
 
 Password Strength Evaluation – Analyzes a user-entered password and provides strength feedback.
 
 Hash Cracking – Attempts to reverse a given hash using a dictionary attack with a common password list.
 
+
 🗂️ Project Structure
 bash
 Copy
 Edit
 PasswordStrengthAndHashCracker/
-│
-├── main.py                # Main application script
-├── common_passwords.txt   # List of commonly used passwords (dictionary file)
+
+├── main.py                  # Main application script
+
+├── common_passwords.txt     # List of commonly used passwords (dictionary file)
+
+
+
+
+
 🧰 Dependencies
 Python 3.x
-
 tkinter (comes built-in with standard Python distributions)
+
+
 
 🚀 How to Run the Project
 Make sure Python 3 is installed.
@@ -30,29 +39,27 @@ bash
 Copy
 Edit
 python main.py
-💡 Features
+
+
+💡 Features:
+
 1. Password Strength Evaluation
 Checks if the password exists in a dictionary of common passwords.
 
 Evaluates strength based on:
 
 Length
-
 Character diversity (uppercase, lowercase, digits, special characters)
-
 Entropy estimation
 
 Categorizes strength as:
-
 Very Weak
-
 Weak
-
 Medium
-
 Strong
 
 Displays actionable feedback.
+
 
 2. Hash Cracking
 Accepts a hash value from the user.
@@ -60,20 +67,16 @@ Accepts a hash value from the user.
 Automatically detects the hash algorithm based on hash length:
 
 MD5 (32)
-
 SHA-1 (40)
-
 SHA-224 (56)
-
 SHA-256 (64)
-
 SHA-384 (96)
-
 SHA-512 (128)
 
 Performs a dictionary attack using common passwords.
 
 Displays cracked password if found, or failure message otherwise.
+
 
 3. Save Results
 Allows saving the output (evaluation or cracking result) to a .txt file via file dialog.
